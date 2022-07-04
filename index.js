@@ -27,20 +27,11 @@ const GoStumble = (auth) => new Promise((resolve, reject) => {
 
 (async () => {
 
-  console.log(` ▄▄▄       ██▀███   ███▄    █  ▄▄▄      ▒███████▒▒██   ██▒
-▒████▄    ▓██ ▒ ██▒ ██ ▀█   █ ▒████▄    ▒ ▒ ▒ ▄▀░▒▒ █ █ ▒░
-▒██  ▀█▄  ▓██ ░▄█ ▒▓██  ▀█ ██▒▒██  ▀█▄  ░ ▒ ▄▀▒░ ░░  █   ░
-░██▄▄▄▄██ ▒██▀▀█▄  ▓██▒  ▐▌██▒░██▄▄▄▄██   ▄▀▒   ░ ░ █ █ ▒ 
- ▓█   ▓██▒░██▓ ▒██▒▒██░   ▓██░ ▓█   ▓██▒▒███████▒▒██▒ ▒██▒
- ▒▒   ▓▒█░░ ▒▓ ░▒▓░░ ▒░   ▒ ▒  ▒▒   ▓▒█░░▒▒ ▓░▒░▒▒▒ ░ ░▓ ░
-  ▒   ▒▒ ░  ░▒ ░ ▒░░ ░░   ░ ▒░  ▒   ▒▒ ░░░▒ ▒ ░ ▒░░   ░▒ ░
-  ░   ▒     ░░   ░    ░   ░ ░   ░   ▒   ░ ░ ░ ░ ░ ░    ░  
-      ░  ░   ░              ░       ░  ░  ░ ░     ░    ░  
-                                        ░                 
-By : ${chalk.bold('Arnazx#9611')}
+  console.log(`SCRIPT INI DITULIS OLEH @irfnadi_ MASIH BETA VERSION
+  By : ${chalk.bold('@irfnadi_')}
 `);
 
-  const auth = rs.question('Masukin kode auth lu : ');
+  const auth = rs.question('Masukin kode auth nya dek: ');
   console.log('');
 
   while (true) {
@@ -59,8 +50,12 @@ By : ${chalk.bold('Arnazx#9611')}
       const trophy = data.User.SkillRating;
       const crown = data.User.Crowns;
 
-console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.red(`User By Arnaz: ${username}`)} | ${chalk.blue(`Trophy By Arnaz : ${trophy}`)} | ${chalk.green(`Crown By Arnaz: ${crown}`)}`));
+console.log(chalk.bgBlack(`\r[ ${moment().format('HH:mm:ss')} ] ${chalk.red(`User By Irfan: ${username}`)} | ${chalk.blue(`Trophy By Irfan
+: ${trophy}`)} | ${chalk.green(`Crown By Irfan: ${crown}`)}`));
       await sleep(6000);
+      
+      
+      
 
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Mampus ke banned akunnya aowokaw:v`));
